@@ -29,7 +29,7 @@ struct LandmarkRow: View {
 }
 
 #Preview("Turtle park") {
-    var landmarks = ModelData().landmarks
+    let landmarks = ModelData().landmarks
     
     return Group {
         LandmarkRow(landmark: landmarks[0])
